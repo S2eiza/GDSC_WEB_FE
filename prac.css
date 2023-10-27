@@ -1,0 +1,33 @@
+body {
+    font-family: "나눔바른고딕";
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    color: #000555;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffd400;
+    color: #000555;
+    text-align: center;
+    padding: 80px;
+}
+
+#intro {
+    border-bottom: 2px solid #ecf0f1;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#border {
+    border-bottom: 2px solid #ecf0f1;
+}
+
+section {
+    background-color: #ffffff;
+    margin: 40px 10%;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

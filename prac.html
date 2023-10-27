@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="prac.css"/>
+        <link rel="icon" href="./favicon.png"/>
+        <title>안녕하세요</title>
+    </head>
+    <body>
+        <header>
+            <div style="display: inline-block;">
+                <h1>만나서 반갑습니다 :)</h1>
+            </div>
+            <div style="display: inline-block; vertical-align: middle;">
+                <img src="./Images/hello.png" width="100" height="100">
+            </div>
+        </header>
+
+        <div id="intro">
+            <h2>저를 소개합니다!</h2>
+        </div>
+
+        <section>
+            <div id="border">
+                <h2>프로필</h2>
+            </div>
+            <h3>이름: 김형민</h3>
+            <h3>생년월일: 2003년 03월 22일</h3>
+            <h3>소속: 고려대학교 서울캠퍼스 정보대학 컴퓨터학과</h3>
+
+            <details>
+                <summary>상세 프로필 더 보기</summary>
+                <p>
+                    <h4>출신: 경상북도 포항</h4>
+                    <h4>MBTI: INFP</h4>
+                    <h4 style="display: inline;">GitHub 주소: </h4>
+                    <a href="https://github.com/S2uave"><h4 style="display: inline;">https://github.com/S2uave</h4></a>
+                </p>
+            </details>
+            <div id="border"></div>
+
+            <div id="border">
+                <h2>취미</h2>
+            </div>
+            <ul>
+                <li><h3>PC 게임</h3></li>
+                <details>
+                    <summary>티어 인증</summary>
+                    <p>
+                        <img src="./Images/Gold_1.png" width="640" height="360">
+                        <img src="./Images/Gold_2.png" width="640" height="360">
+                    </p>
+                </details>
+                <li><h3>음악 감상</h3></li>
+                <details>
+                    <summary>노래 추천</summary>
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FlAsI1rhsfs?si=XTfO3CztOAvK4oWh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gsT6eKsnT0M?si=G-jV7MFPBTo5M8kQ&amp;start=55" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </p>
+                </details>
+                <li><h3>만화</h3></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>댓글 쓰기</h2>
+            <form action="#" method="post">
+                <label for="comment">같이 게임 하실 분들은 아이디 남겨주세요. 혹은 알고 계신 좋은 음악들을 공유해주세요: </label><br />
+                <textarea id="comment" name="comment" rows="8" cols="80"> </textarea><br />
+                <input type="submit" value="남기기" />
+            </form>
+        </section>
+    </body>
+</html>
